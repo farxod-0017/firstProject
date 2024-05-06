@@ -1,0 +1,152 @@
+.hero {
+    padding: 153px 0 152px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+}
+.hero_card {
+    max-width: 405px;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 95px;
+}
+.hero_card p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+} 
+.hero_card button {
+    width: 180px;
+    height: 53px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    background: rgba(252, 183, 43, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 40px;
+    position: relative;
+}
+.hero_card button:hover {
+    border: 3px solid rgba(252, 183, 43, 1);
+    background: transparent;
+    color: rgba(252, 183, 43, 1);
+}  
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(73, 85, 103);
+    opacity: 77%;
+}
+.lineYellow  {
+    position: absolute;
+    bottom: 295px;
+    left: 0px;
+    z-index: 1;
+}
+.arrowYellow {
+    position: absolute;
+    right: 288px;
+    bottom: 157px;
+    z-index: 1;
+}
+.rounds {
+    position: absolute;
+    right: -48px;
+    bottom: 164.5px;
+    z-index: 1;
+}
+
+/* Media */
+
+@media(max-width:1370px) {
+    .arrowYellow {
+        right: 198px;
+    }
+    .lineYellow {
+        left: -90px;
+    }
+}
+@media(max-width:1200px) {
+    .hero {
+        padding: 137px 0 217px;
+    }
+    .hero h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero_card {
+        max-width: 573px;
+        margin-left: 0px;
+        margin: 24px auto 0;
+    }
+    .hero_card p {
+        text-align: center;
+    }
+    .hero_card button {
+        display: block;
+        margin: 32px auto 0;
+    }
+    .lineYellow {
+        display: none;
+    }
+    .arrowYellow {
+        bottom: 39px;
+        left: 0;
+    }
+    .rounds {
+        right: -31px;
+        bottom: 45px;
+    }
+}
+@media(max-width:900px) {
+    .arrowYellow {
+        left: -127px;
+    }
+    .hero {
+        background-position: right;
+    } 
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 115px 17px 179px;
+    }
+    .hero h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero_card button {
+        margin: 34px auto 0;
+    }
+    .arrowYellow {
+        left: -312px;
+        bottom: 34px;
+    }
+}
+@media(max-width:500px) {
+    .rounds {
+       display: none;
+    }
+      
+}

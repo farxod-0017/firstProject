@@ -1,0 +1,68 @@
+.apply {
+    padding:0 25px 160px;
+}
+.applyCard {
+    width: 100%;
+    padding: 32px 64px 35px 40px;
+    background: rgba(242, 245, 249, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+.applyText h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.07px;
+    text-align: left;
+    margin-bottom: 8px;
+    color: rgba(73, 85, 103, 1);
+}
+.applyText p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(73, 85, 103, 1);
+}
+.applyCard button {
+    width: 180px;
+    height: 53px;
+    background: rgba(252, 183, 43, 1);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+.applyCard button:hover {
+    border: 3px solid rgba(252, 183, 43, 1);
+    background: transparent;
+    color: rgba(252, 183, 43, 1);
+}
+
+@media(max-width:500px) {
+    .applyCard {
+        padding: 36px 32px 32px 32px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        flex-direction: column;
+    }
+    .applyText h4 {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.8px;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    .applyCard button {
+        width: 247px;
+    }
+    .apply {
+        padding: 0 17px 120px;
+    }
+}
